@@ -7,6 +7,6 @@ jobs:
       - uses: actions/checkout@v4
       - run: ls -a
       - name: write greeting
-      run: echo "Hello, World!" > greeting.txt
+        run: echo "Hello, World!" > greeting.txt
       - name: print greeting
-      run: cat greeting.txt
+        run: cat greeting.txt
